@@ -1,7 +1,7 @@
 import '../pages/css/logo.css'
 
 const Logo = () => (
-    <div className="container">
+    <div className="logo__container">
         <div className="chameleon">
             <div className="chameleon__head">
                 <div className="chameleon__face"></div>

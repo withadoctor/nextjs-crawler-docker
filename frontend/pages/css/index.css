@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+    /* --logobgcolor: #ffffff; */
+    --logobgcolor: rgb(25, 31, 44);
+    --gray: #f1f1f1;
+    --lightGray: #c2c2c2;
+    --green: #466b21;
+    --lightGreen: #669933;
+    --shadow: #2a2d2733;
+    --darkGreen: #2f4717;
+    --black: #010101;
+    --duration-head: .64s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    --duration-body: .18s cubic-bezier(0.6, -0.28, 0.74, 0.05);
+    --duration-leg: .64s linear;
+    --duration-tail: .36s cubic-bezier(0.54, 0.03, 0, 0.96);
+    --duration-shadow: .36s cubic-bezier(0.54, 0.03, 0, 0.96);
+}
+html *,
+html *::before,
+html *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: rgb(25, 31, 44);
+    color: rgb(183, 193, 204);
+    border-color: rgb(200, 201, 205);
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.main__layout {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    margin: auto;
+    width: 400px;
+    overflow: hidden;
+    min-height: 100vh;
+}
+
+.logo__layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
